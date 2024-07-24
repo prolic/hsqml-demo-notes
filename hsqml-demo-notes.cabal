@@ -24,9 +24,9 @@ Executable hsqml-notes
     Main-is: NotesFast.hs
     Build-depends:
         base          == 4.*,
-        containers    >= 0.4 && < 0.6,
-        text          >= 0.11 && < 1.3,
-        transformers  >= 0.2 && < 0.5,
+        containers    >= 0.4 && < 0.7,
+        text          >= 2.0 && < 2.1,
+        transformers  >= 0.2 && < 0.6,
         sqlite-simple >= 0.4.8 && < 0.5,
         hsqml         >= 0.3.4 && < 0.4
     GHC-options: -threaded
@@ -37,7 +37,7 @@ Executable hsqml-notes-slow
     Main-is: NotesSlow.hs
     Build-depends:
         base          == 4.*,
-        text          >= 0.11 && < 1.3,
+        text          >= 2.0 && < 2.1,
         sqlite-simple >= 0.4.8 && < 0.5,
         hsqml         >= 0.3.4 && < 0.4
     GHC-options: -threaded
